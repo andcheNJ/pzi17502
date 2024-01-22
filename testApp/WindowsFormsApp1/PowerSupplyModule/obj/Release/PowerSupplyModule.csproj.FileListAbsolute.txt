@@ -1,0 +1,14 @@
+C:\Kameratest\CameraTestApp_release\PowerSupplyModule\bin\Release\PowerSupplyModule.dll
+C:\Kameratest\CameraTestApp_release\PowerSupplyModule\bin\Release\PowerSupplyModule.pdb
+C:\Kameratest\CameraTestApp_release\PowerSupplyModule\bin\Release\OxyPlot.dll
+C:\Kameratest\CameraTestApp_release\PowerSupplyModule\bin\Release\OxyPlot.Wpf.dll
+C:\Kameratest\CameraTestApp_release\PowerSupplyModule\bin\Release\System.Windows.Interactivity.dll
+C:\Kameratest\CameraTestApp_release\PowerSupplyModule\bin\Release\OxyPlot.pdb
+C:\Kameratest\CameraTestApp_release\PowerSupplyModule\bin\Release\OxyPlot.xml
+C:\Kameratest\CameraTestApp_release\PowerSupplyModule\bin\Release\OxyPlot.Wpf.pdb
+C:\Kameratest\CameraTestApp_release\PowerSupplyModule\bin\Release\OxyPlot.Wpf.xml
+C:\Kameratest\CameraTestApp_release\PowerSupplyModule\obj\Release\PowerSupplyModule.csprojResolveAssemblyReference.cache
+C:\Kameratest\CameraTestApp_release\PowerSupplyModule\obj\Release\PowerSupplyModule.Properties.Resources.resources
+C:\Kameratest\CameraTestApp_release\PowerSupplyModule\obj\Release\PowerSupplyModule.csproj.GenerateResource.Cache
+C:\Kameratest\CameraTestApp_release\PowerSupplyModule\obj\Release\PowerSupplyModule.dll
+C:\Kameratest\CameraTestApp_release\PowerSupplyModule\obj\Release\PowerSupplyModule.pdb

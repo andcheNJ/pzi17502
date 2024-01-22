@@ -1,0 +1,128 @@
+C:\Users\njuguna.PZI15922\source\New Program\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\njuguna.PZI15922\source\New Program\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\njuguna.PZI15922\source\New Program\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\njuguna.PZI15922\source\New Program\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\apiNET32.dll
+C:\Users\njuguna.PZI15922\source\New Program\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Test Control.exe.config
+C:\Users\njuguna.PZI15922\source\New Program\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Test Control.xml
+C:\Users\njuguna.PZI15922\source\New Program\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Test Control.exe
+C:\Users\njuguna.PZI15922\source\New Program\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Test Control.pdb
+C:\Users\njuguna.PZI15922\source\New Program\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Test Control.exe
+C:\Users\njuguna.PZI15922\source\New Program\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Test Control.pdb
+C:\Users\njuguna.PZI15922\source\New Program\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\TestControl.Properties.Resources.resources
+C:\Users\njuguna.PZI15922\source\New Program\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ClosedXML.dll
+C:\Users\njuguna.PZI15922\source\New Program\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\njuguna.PZI15922\source\New Program\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ExcelNumberFormat.dll
+C:\Users\njuguna.PZI15922\source\New Program\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.IO.Packaging.dll
+C:\Users\njuguna.PZI15922\source\New Program\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ClosedXML.pdb
+C:\Users\njuguna.PZI15922\source\New Program\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ClosedXML.xml
+C:\Users\njuguna.PZI15922\source\New Program\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\njuguna.PZI15922\source\New Program\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ExcelNumberFormat.xml
+C:\Users\njuguna.PZI15922\source\New Program\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.ResolveComReference.cache
+C:\Users\njuguna.PZI15922\source\New Program\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OxyPlot.pdb
+C:\Users\njuguna.PZI15922\source\New Program\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OxyPlot.xml
+C:\Users\njuguna.PZI15922\source\New Program\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OxyPlot.Wpf.pdb
+C:\Users\njuguna.PZI15922\source\New Program\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OxyPlot.Wpf.xml
+C:\Users\njuguna.PZI15922\source\New Program\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\PowerSupplyModule.pdb
+C:\Users\njuguna.PZI15922\source\New Program\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Testrack Control.exe
+C:\Users\njuguna.PZI15922\source\New Program\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Testrack Control.pdb
+C:\Users\njuguna.PZI15922\source\New Program\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Interop.EnvDTE.dll
+C:\Users\njuguna.PZI15922\source\New Program\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Interop.VSLangProj.dll
+C:\Users\njuguna.PZI15922\source\New Program\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\njuguna.PZI15922\source\New Program\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\njuguna.PZI15922\source\New Program\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Andrew\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Test Control.exe.config
+C:\Users\Andrew\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Test Control.xml
+C:\Users\Andrew\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Test Control.exe
+C:\Users\Andrew\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Test Control.pdb
+C:\Users\Andrew\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ClosedXML.dll
+C:\Users\Andrew\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\Andrew\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ExcelNumberFormat.dll
+C:\Users\Andrew\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.IO.Packaging.dll
+C:\Users\Andrew\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Testrack Control.exe
+C:\Users\Andrew\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Testrack Control.pdb
+C:\Users\Andrew\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ClosedXML.pdb
+C:\Users\Andrew\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ClosedXML.xml
+C:\Users\Andrew\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\Andrew\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ExcelNumberFormat.xml
+C:\Users\Andrew\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OxyPlot.pdb
+C:\Users\Andrew\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OxyPlot.xml
+C:\Users\Andrew\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OxyPlot.Wpf.pdb
+C:\Users\Andrew\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OxyPlot.Wpf.xml
+C:\Users\Andrew\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\PowerSupplyModule.pdb
+C:\Users\Andrew\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Andrew\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Andrew\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Interop.EnvDTE.dll
+C:\Users\Andrew\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Interop.VSLangProj.dll
+C:\Users\Andrew\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.ResolveComReference.cache
+C:\Users\Andrew\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Andrew\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\TestControl.Properties.Resources.resources
+C:\Users\Andrew\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Andrew\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\Andrew\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Test Control.exe
+C:\Users\Andrew\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Test Control.pdb
+D:\Kameratest\xmlApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Test Control.exe.config
+D:\Kameratest\xmlApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Test Control.xml
+D:\Kameratest\xmlApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Test Control.exe
+D:\Kameratest\xmlApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Test Control.pdb
+D:\Kameratest\xmlApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\apiNET32.dll
+D:\Kameratest\xmlApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ClosedXML.dll
+D:\Kameratest\xmlApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DocumentFormat.OpenXml.dll
+D:\Kameratest\xmlApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ExcelNumberFormat.dll
+D:\Kameratest\xmlApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.IO.Packaging.dll
+D:\Kameratest\xmlApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Testrack Control.exe
+D:\Kameratest\xmlApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Testrack Control.pdb
+D:\Kameratest\xmlApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ClosedXML.pdb
+D:\Kameratest\xmlApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ClosedXML.xml
+D:\Kameratest\xmlApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DocumentFormat.OpenXml.xml
+D:\Kameratest\xmlApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ExcelNumberFormat.xml
+D:\Kameratest\xmlApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OxyPlot.pdb
+D:\Kameratest\xmlApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OxyPlot.xml
+D:\Kameratest\xmlApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OxyPlot.Wpf.pdb
+D:\Kameratest\xmlApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OxyPlot.Wpf.xml
+D:\Kameratest\xmlApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\PowerSupplyModule.pdb
+D:\Kameratest\xmlApp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+D:\Kameratest\xmlApp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+D:\Kameratest\xmlApp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Interop.EnvDTE.dll
+D:\Kameratest\xmlApp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Interop.VSLangProj.dll
+D:\Kameratest\xmlApp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.ResolveComReference.cache
+D:\Kameratest\xmlApp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\Kameratest\xmlApp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\TestControl.Properties.Resources.resources
+D:\Kameratest\xmlApp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\Kameratest\xmlApp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\Kameratest\xmlApp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+D:\Kameratest\xmlApp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Test Control.exe
+D:\Kameratest\xmlApp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Test Control.pdb
+E:\Scripts\testApp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+E:\Scripts\testApp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+E:\Scripts\testApp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Interop.EnvDTE.dll
+E:\Scripts\testApp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Interop.VSLangProj.dll
+E:\Scripts\testApp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.ResolveComReference.cache
+E:\Scripts\testApp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+E:\Scripts\testApp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\TestControl.Properties.Resources.resources
+E:\Scripts\testApp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+E:\Scripts\testApp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+E:\Scripts\testApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ClosedXML.dll
+E:\Scripts\testApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DocumentFormat.OpenXml.dll
+E:\Scripts\testApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ExcelNumberFormat.dll
+E:\Scripts\testApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.IO.Packaging.dll
+E:\Scripts\testApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Testrack Control.exe
+E:\Scripts\testApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Testrack Control.pdb
+E:\Scripts\testApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ClosedXML.pdb
+E:\Scripts\testApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ClosedXML.xml
+E:\Scripts\testApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DocumentFormat.OpenXml.xml
+E:\Scripts\testApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ExcelNumberFormat.xml
+E:\Scripts\testApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OxyPlot.pdb
+E:\Scripts\testApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OxyPlot.xml
+E:\Scripts\testApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OxyPlot.Wpf.pdb
+E:\Scripts\testApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OxyPlot.Wpf.xml
+E:\Scripts\testApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\PowerSupplyModule.pdb
+E:\Scripts\testApp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+E:\Scripts\testApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\TestApp.exe.config
+E:\Scripts\testApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\TestApp.xml
+E:\Scripts\testApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\TestApp.exe
+E:\Scripts\testApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\TestApp.pdb
+E:\Scripts\testApp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\TestApp.exe
+E:\Scripts\testApp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\TestApp.pdb
+E:\Scripts\testApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Testrack Control.exe.config
+E:\Scripts\testApp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\apiNET32.dll

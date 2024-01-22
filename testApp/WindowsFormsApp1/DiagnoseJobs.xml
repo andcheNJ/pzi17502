@@ -1,0 +1,484 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDiagnoseJob xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-inParamsnce">
+  <DiagnoseJob>
+    <!--DO NOT CHANGE THE NAME -->
+    <Unit>TEST</Unit>
+    <Name>HUD_BRIGHTNESS_TEST</Name>
+    <Job>steuern_io</Job>
+    <ARG>STEUERN_HUD_HELLIGKEIT;STA;1</ARG>
+    <Params>
+      <string>10000</string>
+      <!--Anfangs Helligkeit-->
+      <string>0</string>
+      <!--Ende Helligkeit-->
+      <string>2000</string>
+      <!--step; Negative Step = bedeuted heller; Positive = dunkler-->
+    </Params>
+  </DiagnoseJob>
+  <DiagnoseJob>
+    <!--DO NOT CHANGE THE NAME -->
+    <Unit>TEST</Unit>
+    <Name>CID_BRIGHTNESS_TEST</Name>
+    <Job>steuern</Job>
+    <ARG>CID_BACKLIGHT</ARG>
+    <Params>
+      <string>100</string>
+      <!--Anfangs Helligkeit-->
+      <string>0</string>
+      <!--Ende Helligkeit-->
+      <string>20</string>
+      <!--step; Negative Step = bedeuted heller; Positive = dunkler-->--&gt;
+		</Params>
+  </DiagnoseJob>
+  <DiagnoseJob>
+    <!--DO NOT CHANGE THE NAME -->
+    <Unit>TEST</Unit>
+    <Name>HUD_TESTBILD_TEST</Name>
+    <Job>steuern_routine</Job>
+    <ARG>KOMBI_TESTBITMAP_HUD;STR</ARG>
+    <Params>
+      <string>0x50;0;0;0</string>
+      <string>homogeneity_white.png</string>
+    </Params>
+  </DiagnoseJob>
+  <DiagnoseJob>
+    <!--DO NOT CHANGE THE NAME -->
+    <Unit>TEST</Unit>
+    <Name>HUD_EIN_AUS_TEST</Name>
+    <Job>steuern</Job>
+    <ARG>HUD_AKTIVIERUNG</ARG>
+    <Params>
+      <string>0</string>
+      <string>1</string>
+    </Params>
+  </DiagnoseJob>
+  <DiagnoseJob>
+    <!--DO NOT CHANGE THE NAME -->
+    <Unit>TEST</Unit>
+    <Name>HUD_BILD_POSITION</Name>
+    <Job>steuern_io</Job>
+    <ARG>HUD_BILDHOEHE;STA;0</ARG>
+    <Params>
+      <string>0</string>
+      <!--Anschlag unten-->
+      <string>100</string>
+      <!--Anschlag oben-->
+      <string>10</string>
+      <!--Step-->
+    </Params>
+  </DiagnoseJob>
+  <DiagnoseJob>
+    <!--DO NOT CHANGE THE NAME -->
+    <Unit>TEST</Unit>
+    <Name>HUD_BILD_ROTATION</Name>
+    <Job>steuern_io</Job>
+    <ARG>HUD_BILDROTATION;STA;0</ARG>
+    <Params>
+      <string>-10</string>
+      <!--Anschlag links-->
+      <string>10</string>
+      <!--Anschlag rechts-->
+      <string>2</string>
+      <!--Step-->
+    </Params>
+  </DiagnoseJob>
+  <DiagnoseJob>
+    <!--DO NOT CHANGE THE NAME -->
+    <Unit>TEST</Unit>
+    <Name>HUD_WRAPPING</Name>
+    <Job>steuern_routine</Job>
+    <ARG>STEUERN_WARPING;STR</ARG>
+    <Params>
+      <!--Wrapping off-->
+      <string>ABBRECHEN;KEINE_AENDERUNG;KEINE_AENDERUNG;0</string>
+      <!--Wrapping trapez-->
+      <string>VERAENDERN;TRAPEZ;HOCH;10</string>
+      <!--Wrapping kissen-->
+      <string>VERAENDERN;KISSEN;RECHTS;10</string>
+      <!--Wrapping smile-->
+      <string>VERAENDERN;SMILE;RUNTER;10</string>
+      <!--Wrapping vertical-->
+      <string>VERAENDERN;HOEHE;HOCH;10</string>
+    </Params>
+  </DiagnoseJob>
+  <DiagnoseJob>
+    <!--DO NOT CHANGE THE NAME -->
+    <Unit>TEST</Unit>
+    <Name>FS_LOESCHEN</Name>
+    <Job>fs_loeschen</Job>
+    <!--argument is not needed-->
+    <ARG>
+    </ARG>
+    <!--parameters are not needed-->
+    <Params>
+      <string>
+      </string>
+    </Params>
+  </DiagnoseJob>
+  <!--Precondition: manual or automatic FS_LOESCHEN should be done -->
+  <DiagnoseJob>
+    <!--DO NOT CHANGE THE NAME -->
+    <Unit>TEST</Unit>
+    <Name>HUD_EINSCHLAFEN_AUFWECKEN_TEST</Name>
+    <Job>steuern_zustand_fahrzeug</Job>
+    <ARG>
+    </ARG>
+    <Params>
+      <!-- Argument list shoul have format: Argument;Delay; expected result 1- heller, 0-dunkler-->
+      <!--<string>FAHREN;10000;1</string>-->
+      <string>PARKEN_BN_IO;10000;0</string>
+      <string>PRUEFEN_ANALYSE_DIAGNOSE;10000;1</string>
+      <!--<string>STANDFUNKTIONEN_KUNDE_NICHT_IM_FZG;10000;0</string>
+      <string>WOHNEN;10000;0</string>-->
+      <!--<string>FAHRBEREITSCHAFT_HERSTELLEN;10000;1</string>
+      -->
+      <!--<string>FAHRBEREITSCHAFT_BEENDEN;10000;1</string>
+      <string>WOHNEN;10000;0</string>
+      <string>STANDFUNKTIONEN_KUNDE_NICHT_IM_FZG;10000;0</string>
+      <string>PARKEN_BN_IO;10000;0</string>-->
+    </Params>
+  </DiagnoseJob>
+  <DiagnoseJob>
+    <!--DO NOT CHANGE THE NAME -->
+    <Unit>TEST</Unit>
+    <Name>CID_PWF_TEST_MGU21</Name>
+    <Job>steuern_zustand_fahrzeug</Job>
+    <ARG>
+    </ARG>
+    <Params>
+      <!-- Argument list shoul have format: Argument;Delay; expected result 1- heller, 0-no change, -1 - ignore Result-->
+      <string>WOHNEN;5000;-1</string>
+      <string>PARKEN_BN_IO;1000;-1</string>
+      <string>PRUEFEN_ANALYSE_DIAGNOSE;25000;1</string>
+    </Params>
+  </DiagnoseJob>
+  <DiagnoseJob>
+    <!--DO NOT CHANGE THE NAME -->
+    <Unit>TEST</Unit>
+    <Name>CID_PWF_TEST_ICBox</Name>
+    <Job>steuern_zustand_fahrzeug</Job>
+    <ARG>
+    </ARG>
+    <Params>
+      <!-- Argument list shoul have format: Argument;Delay (ms); expected result 1- heller, 0-no change, -1 - ignore Result-->
+      <string>WOHNEN;5000;-1</string>
+      <string>PARKEN_BN_IO;1000;-1</string>
+      <string>PRUEFEN_ANALYSE_DIAGNOSE;25000;1</string>
+    </Params>
+  </DiagnoseJob>
+  <DiagnoseJob>
+    <!--DO NOT CHANGE THE NAME -->
+    <Unit>TEST</Unit>
+    <Name>CID_PWF_TEST_IDC</Name>
+    <Job>steuern_zustand_fahrzeug</Job>
+    <ARG>
+    </ARG>
+    <Params>
+      <!-- Argument list shoul have format: Argument;Delay; expected result 1- heller, 0-no change, -1 - ignore Result-->
+      <string>WOHNEN;5000;-1</string>
+      <string>PARKEN_BN_IO;1000;-1</string>
+      <string>PRUEFEN_ANALYSE_DIAGNOSE;60000;1</string>
+    </Params>
+  </DiagnoseJob>
+  <DiagnoseJob>
+    <!--DO NOT CHANGE THE NAME -->
+    <Unit>TEST</Unit>
+    <Name>CID_PWF_TEST_MGU18</Name>
+    <Job>steuern_zustand_fahrzeug</Job>
+    <ARG>
+    </ARG>
+    <Params>
+      <!-- Argument list shoul have format: Argument;Delay; expected result 1- heller, 0-no change, -1 - ignore Result-->
+      <string>WOHNEN;5000;-1</string>
+      <string>PARKEN_BN_IO;1000;-1</string>
+      <string>PRUEFEN_ANALYSE_DIAGNOSE;25000;1</string>
+    </Params>
+  </DiagnoseJob>
+  <DiagnoseJob>
+    <!--DO NOT CHANGE THE NAME -->
+    <Unit>TEST</Unit>
+    <Name>CID_PWF_TEST_NBTEvo</Name>
+    <Job>steuern_zustand_fahrzeug</Job>
+    <ARG>
+    </ARG>
+    <Params>
+      <!-- Argument list shoul have format: Argument;Delay; expected result 1- heller, 0-no change, -1 - ignore Result-->
+      <string>WOHNEN;5000;-1</string>
+      <string>PARKEN_BN_IO;1000;-1</string>
+      <string>PRUEFEN_ANALYSE_DIAGNOSE;25000;1</string>
+    </Params>
+  </DiagnoseJob>
+  <DiagnoseJob>
+    <!--DO NOT CHANGE THE NAME -->
+    <Unit>TEST</Unit>
+    <Name>CID_PWF_TEST_EntryEvo</Name>
+    <Job>steuern_zustand_fahrzeug</Job>
+    <ARG>
+    </ARG>
+    <Params>
+      <!-- Argument list shoul have format: Argument;Delay; expected result 1- heller, 0-no change, -1 - ignore Result-->
+      <string>WOHNEN;6000;-1</string>
+      <string>PARKEN_BN_IO;1000;-1</string>
+      <string>PRUEFEN_ANALYSE_DIAGNOSE;24000;1</string>
+    </Params>
+  </DiagnoseJob>
+  <DiagnoseJob>
+    <!--DO NOT CHANGE THE NAME -->
+    <Unit>TEST</Unit>
+    <Name>CID_PWF_TEST_MGU22</Name>
+    <Job>steuern_zustand_fahrzeug</Job>
+    <ARG>
+    </ARG>
+    <Params>
+      <!-- Argument list shoul have format: Argument;Delay; expected result 1- heller, 0-no change, -1 - ignore Result-->
+      <string>WOHNEN;5000;-1</string>
+      <string>PARKEN_BN_IO;1000;-1</string>
+      <string>PRUEFEN_ANALYSE_DIAGNOSE;25000;1</string>
+    </Params>
+  </DiagnoseJob>
+  <DiagnoseJob>
+    <!--DO NOT CHANGE THE NAME -->
+    <Unit>TEST</Unit>
+    <Name>KOMBI_LEUCHTEN_TEST</Name>
+    <Job>steuern_io</Job>
+    <ARG>KOMBI_LEUCHTEN;STA</ARG>
+    <Params>
+      <string>F1</string>
+      <string>F2</string>
+      <string>F3</string>
+      <string>F4_1</string>
+      <string>F4_2</string>
+      <string>F4_3</string>
+      <string>F5_1</string>
+      <string>F5_2</string>
+      <string>F6_1</string>
+      <string>F6_2</string>
+      <string>F6_3</string>
+      <string>F8</string>
+      <string>F9</string>
+      <string>F10</string>
+      <string>F13</string>
+      <string>F14</string>
+      <string>F15</string>
+      <string>F16</string>
+      <string>F17</string>
+      <string>F18</string>
+      <string>F19</string>
+      <string>F20</string>
+      <string>F21</string>
+      <string>F22</string>
+      <string>F23</string>
+      <string>F24</string>
+      <string>F25</string>
+      <string>BLINKER_RECHTS</string>
+      <string>BLINKER_LINKS</string>
+      <string>FERNLICHT</string>
+      <string>FERNLICHTASSISTENT</string>
+      <string>NEBELSCHEINWERFER</string>
+      <string>NEBELSCHLUSSLEUCHTE</string>
+      <string>STANDLICHT</string>
+    </Params>
+  </DiagnoseJob>
+  <!--Section for Single DiagnoseJobs which can be called from Camera - Tab -->
+  <DiagnoseJob>
+    <!--DO NOT CHANGE THE NAME -->
+    <Unit>CID</Unit>
+    <Name>CID_BACKLIGHT</Name>
+    <Job>steuern</Job>
+    <ARG>CID_BACKLIGHT</ARG>
+    <Params>
+      <!--100% Helligkeit-->
+      <string>0</string>
+      <string>20</string>
+      <string>40</string>
+      <string>60</string>
+      <string>80</string>
+      <string>100</string>
+    </Params>
+  </DiagnoseJob>
+  <DiagnoseJob>
+    <!--DO NOT CHANGE THE NAME -->
+    <Unit>HUD</Unit>
+    <Name>STEUERN_HUD_HELLIGKEIT</Name>
+    <Job>steuern_io</Job>
+    <ARG>STEUERN_HUD_HELLIGKEIT;STA;1</ARG>
+    <Params>
+      <!--100% Helligkeit-->
+      <string>0</string>
+      <string>2000</string>
+      <string>4000</string>
+      <string>6000</string>
+      <string>8000</string>
+      <string>10000</string>
+    </Params>
+  </DiagnoseJob>
+  <DiagnoseJob>
+    <!--DO NOT CHANGE THE NAME -->
+    <Unit>HUD</Unit>
+    <Name>KOMBI_TESTBITMAP_HUD</Name>
+    <Job>steuern_routine</Job>
+    <ARG>KOMBI_TESTBITMAP_HUD;STR</ARG>
+    <Params>
+      <string>0x50;0;0;0</string>
+      <string>homogeneity_white.png</string>
+    </Params>
+  </DiagnoseJob>
+  <DiagnoseJob>
+    <!--DO NOT CHANGE THE NAME -->
+    <Unit>HUD</Unit>
+    <Name>HUD_BILDHOEHE</Name>
+    <Job>steuern_io</Job>
+    <ARG>HUD_BILDHOEHE;STA;0</ARG>
+    <Params>
+      <!--Anschlag unten-->
+      <string>0</string>
+      <string>20</string>
+      <string>40</string>
+      <string>60</string>
+      <string>80</string>
+      <string>100</string>
+    </Params>
+  </DiagnoseJob>
+  <DiagnoseJob>
+    <!--DO NOT CHANGE THE NAME -->
+    <Unit>&gt;HUD</Unit>
+    <Name>KOMBI_TESTBITMAP_HUD</Name>
+    <Job>steuern_routine</Job>
+    <ARG>KOMBI_TESTBITMAP_HUD;STR</ARG>
+    <Params>
+      <!--Blobs -->
+      <string>homogeneity_white.png</string>
+    </Params>
+  </DiagnoseJob>
+  <DiagnoseJob>
+    <!--DO NOT CHANGE THE NAME -->
+    <Unit>HUD</Unit>
+    <Name>HUD_AKTIVIERUNG</Name>
+    <Job>steuern</Job>
+    <ARG>HUD_AKTIVIERUNG</ARG>
+    <Params>
+      <!--HDU As-/Ein- Schalten-->
+      <string>0</string>
+      <string>1</string>
+    </Params>
+  </DiagnoseJob>
+  <DiagnoseJob>
+    <!--DO NOT CHANGE THE NAME -->
+    <Unit>HUD</Unit>
+    <Name>HUD_BILDROTATION</Name>
+    <Job>steuern_io</Job>
+    <ARG>HUD_BILDROTATION;STA;0</ARG>
+    <Params>
+      <!--Anschlag links-->
+      <string>-10</string>
+      <string>-8</string>
+      <string>-6</string>
+      <string>-4</string>
+      <string>-2</string>
+      <string>0</string>
+      <string>2</string>
+      <string>4</string>
+      <string>6</string>
+      <string>8</string>
+      <string>10</string>
+      <!--Anschlag rechts-->
+    </Params>
+  </DiagnoseJob>
+  <DiagnoseJob>
+    <!--DO NOT CHANGE THE NAME -->
+    <Unit>HUD</Unit>
+    <Name>HUD_WRAPPING</Name>
+    <Job>steuern_routine</Job>
+    <ARG>STEUERN_WARPING;STR</ARG>
+    <Params>
+      <!--Wrapping off-->
+      <string>ABBRECHEN;KEINE_AENDERUNG;KEINE_AENDERUNG;0</string>
+      <!--Wrapping trapez-->
+      <string>VERAENDERN;TRAPEZ;HOCH;10</string>
+      <!--Wrapping kissen-->
+      <string>VERAENDERN;KISSEN;RECHTS;10</string>
+      <!--Wrapping smile-->
+      <string>VERAENDERN;SMILE;RUNTER;10</string>
+      <!--Wrapping vertical-->
+      <string>VERAENDERN;HOEHE;HOCH;10</string>
+    </Params>
+  </DiagnoseJob>
+  <DiagnoseJob>
+    <!--DO NOT CHANGE THE NAME -->
+    <Unit>Kombi</Unit>
+    <Name>KOMBI_LEUCHTEN</Name>
+    <Job>steuern_io</Job>
+    <ARG>KOMBI_LEUCHTEN;STA</ARG>
+    <Params>
+      <string>F1</string>
+      <string>F2</string>
+      <string>F3</string>
+      <string>F4_1</string>
+      <string>F4_2</string>
+      <string>F4_3</string>
+      <string>F5_1</string>
+      <string>F5_2</string>
+      <string>F6_1</string>
+      <string>F6_2</string>
+      <string>F6_3</string>
+      <string>F8</string>
+      <string>F9</string>
+      <string>F10</string>
+      <string>F13</string>
+      <string>F14</string>
+      <string>F15</string>
+      <string>F16</string>
+      <string>F17</string>
+      <string>F18</string>
+      <string>F19</string>
+      <string>F20</string>
+      <string>F21</string>
+      <string>F22</string>
+      <string>F23</string>
+      <string>F24</string>
+      <string>F25</string>
+      <string>BLINKER_RECHTS</string>
+      <string>BLINKER_LINKS</string>
+      <string>FERNLICHT</string>
+      <string>FERNLICHTASSISTENT</string>
+      <string>NEBELSCHEINWERFER</string>
+      <string>NEBELSCHLUSSLEUCHTE</string>
+      <string>STANDLICHT</string>
+    </Params>
+  </DiagnoseJob>
+  <DiagnoseJob>
+    <!--DO NOT CHANGE THE NAME -->
+    <Unit>BDC</Unit>
+    <Name>STEUERN_ZUSTAND_FAHRZEUG</Name>
+    <Job>steuern_zustand_fahrzeug</Job>
+    <ARG>
+    </ARG>
+    <Params>
+      <!-- Argument list shoul have format: Argument;Delay-->
+      <string>PARKEN_BN_NIO</string>
+      <string>PARKEN_BN_IO</string>
+      <string>STANDFUNKTIONEN_KUNDE_NICHT_IM_FZG</string>
+      <string>WOHNEN</string>
+      <string>PRUEFEN_ANALYSE_DIAGNOSE</string>
+      <string>PARKEN_BN_IO_VERK</string>
+      <string>FAHRBEREITSCHAFT_BEENDEN</string>
+    </Params>
+  </DiagnoseJob>
+  <DiagnoseJob>
+    <!--DO NOT CHANGE THE NAME -->
+    <Unit>BDC</Unit>
+    <Name>ENERGIESPARMODE</Name>
+    <Job>ENERGIESPARMODE</Job>
+    <ARG>
+    </ARG>
+    <Params>
+      <!-- Argument list shoul have format: Argument;Delay-->
+      <!--normal mode-->
+      <string>0x00</string>
+      <!--production mode-->
+      <string>0x01</string>
+      <string>0x02</string>
+      <string>0x03</string>
+    </Params>
+  </DiagnoseJob>
+</ArrayOfDiagnoseJob>

@@ -1,0 +1,227 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestApp</name>
+    </assembly>
+    <members>
+        <member name="T:DiagnosticModule.EdiabasSingleton">
+            <summary>
+            Implements EDIABAS communication interface
+            </summary>
+        </member>
+        <member name="M:DiagnosticModule.EdiabasSingleton.#ctor">
+            <summary>
+            private singleton constructor
+            </summary>
+        </member>
+        <member name="M:DiagnosticModule.EdiabasSingleton.Init">
+            <summary>
+            Initialise EDIABAS connection
+            </summary>
+        </member>
+        <member name="M:DiagnosticModule.EdiabasSingleton.EnableMultiThreading(System.Boolean)">
+            <summary>
+            Enables the multi threading.
+            </summary>
+            <param name="onOff">if set to <c>true</c> [on off].</param>
+            <returns></returns>
+        </member>
+        <member name="M:DiagnosticModule.EdiabasSingleton.End">
+            <summary>
+            End  EDIABAS instance
+            </summary>
+        </member>
+        <member name="M:DiagnosticModule.EdiabasSingleton.Job(System.String,System.String,System.Collections.Generic.List{System.String})">
+            <summary>
+            Run single EDIABAS jobs with list of arguments
+            </summary>
+            <param name="sgbd">SGBD</param>
+            <param name="jobName">job name</param>
+            <param name="argListe">List of arguments as string list</param>
+        </member>
+        <member name="M:DiagnosticModule.EdiabasSingleton.Job(System.String,System.String,System.String)">
+            <summary>
+            Run single EDIABAS jobs with arguments concatinated to the string
+            </summary>
+            <param name="sgbd">SGBD</param>
+            <param name="jobName">job name</param>
+            <param name="arg">arguments as string</param>
+        </member>
+        <member name="M:DiagnosticModule.EdiabasSingleton.stopActualJobExecution">
+            <summary>
+            Stop job execution. It means: do not wait for job execution any more.
+            </summary>
+        </member>
+        <member name="M:DiagnosticModule.EdiabasSingleton.WaitForExecution">
+            <summary>
+            Wait for job execution
+            </summary>
+        </member>
+        <member name="M:DiagnosticModule.EdiabasSingleton.HandleException(System.String,System.Exception)">
+            <summary>
+            Exception handling
+            <param name="description">Error description</param>
+            <param name="ex">native exception</param>
+            </summary>
+        </member>
+        <member name="M:DiagnosticModule.EdiabasSingleton.results">
+            <summary>
+            reads ediabas results.
+            </summary>
+        </member>
+        <member name="M:DiagnosticModule.EdiabasSingleton.Results_1(System.String,System.String)">
+            <summary>
+            writes results to a specific folder and with specified name 
+            </summary>
+            <param name="directory"></param>
+            <param name="saveName"></param>
+        </member>
+        <member name="M:DiagnosticModule.EdiabasSingleton.Results_2(System.String,System.String)">
+            <summary>
+            saves all the data to a file in a specific directory
+            </summary>
+            <param name="directory"></param>
+            <param name="saveName"></param>
+        </member>
+        <member name="M:DiagnosticModule.EdiabasSingleton.AdjustXmlFile">
+            <summary>
+            Modify an XML to give it a new value. not tested
+            </summary>
+        </member>
+        <member name="M:DiagnosticModule.EdiabasSingleton.ModifyXmlFile(System.String,System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="tag"></param>
+            <param name="position"></param>
+            <param name="newValue"></param>
+            /// <param name="doc"></param>
+        </member>
+        <member name="M:DiagnosticModule.EdiabasSingleton.getXmlVal(System.String,System.String,System.Int32)">
+            <summary>
+            get the value of a variable from xml file
+            </summary>
+            <param name="tag"></param>
+            <param name="doc"></param>
+            <param name="position"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DiagnosticModule.EdiabasSingleton.Run_cmd(System.String,System.String)">
+            <summary>
+            no tested 
+            </summary>
+            <param name="cmd"></param>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DiagnosticModule.EdiabasSingleton.ReadTextReaderAsync(System.IO.TextReader,System.IProgress{System.String})">
+            <summary>
+            function is not used ... yet
+            </summary>
+            <param name="reader"></param>
+            <param name="progress"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DiagnosticModule.EdiabasSingleton.Run_cmd2(System.String,System.String)">
+            <summary>
+            tested and working 
+            </summary>
+            <param name="exeORpy"></param>
+            <param name="args"></param>
+            <param name="output"></param>
+        </member>
+        <member name="M:DiagnosticModule.EdiabasSingleton.Run_cmd3(System.String,System.String)">
+            <summary>
+            run process and call EDIABAS jobs
+            </summary>
+            <param name="exeORpy"></param>
+            <param name="args"></param>
+        </member>
+        <member name="T:TestControl.TextBoxStreamWriter">
+            <summary>
+            sets output to the rich text box provided
+            </summary>
+        </member>
+        <member name="M:TestControl.TextBoxStreamWriter.#ctor(System.Windows.Forms.RichTextBox)">
+            <summary>
+            Initializes a new instance of the <see cref="T:TestControl.TextBoxStreamWriter"/> class.
+            </summary>
+            <param name="richTextBox">The richTextBox.</param>
+        </member>
+        <member name="M:TestControl.TextBoxStreamWriter.Write(System.Char)">
+            <summary>
+            Writes a character to the text stream.
+            </summary>
+            <param name="value">The character to write to the text stream.</param>
+            <exception cref="T:System.ObjectDisposedException">The <see cref="T:System.IO.TextWriter"/> is closed. </exception>
+              
+            <exception cref="T:System.IO.IOException">An I/O error occurs. </exception>
+        </member>
+        <member name="M:TestControl.TextBoxStreamWriter.Write(System.String,System.Object)">
+            <summary>
+            Writes out a formatted string, using the same semantics as 
+            <see cref="M:System.String.Format(System.String,System.Object)"/>.
+            </summary>
+            <param name="format">The formatting string.</param>
+            <param name="arg0">An object to write into the formatted string.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+              <paramref name="format"/> is null. </exception>
+              
+            <exception cref="T:System.ObjectDisposedException">The 
+            <see cref="T:System.IO.TextWriter"/> is closed. </exception>
+              
+            <exception cref="T:System.IO.IOException">An I/O error occurs. 
+            </exception>
+              
+            <exception cref="T:System.FormatException">The format specification
+            in format is invalid.-or- The number indicating an argument to be
+            formatted is less than zero, or larger than or equal to the number
+            of provided objects to be formatted. </exception>
+        </member>
+        <member name="P:TestControl.TextBoxStreamWriter.Encoding">
+            <summary>
+            When overridden in a derived class, returns the <see cref="T:System.Text.Encoding"/> in which the richTextBox is written.
+            </summary>
+            <returns>The Encoding in which the richTextBox is written.</returns>
+        </member>
+        <member name="T:TestControl.Properties.Resources">
+            <summary>
+              Eine stark typisierte Ressourcenklasse zum Suchen von lokalisierten Zeichenfolgen usw.
+            </summary>
+        </member>
+        <member name="P:TestControl.Properties.Resources.ResourceManager">
+            <summary>
+              Gibt die zwischengespeicherte ResourceManager-Instanz zurück, die von dieser Klasse verwendet wird.
+            </summary>
+        </member>
+        <member name="P:TestControl.Properties.Resources.Culture">
+            <summary>
+              Überschreibt die CurrentUICulture-Eigenschaft des aktuellen Threads für alle
+              Ressourcenzuordnungen, die diese stark typisierte Ressourcenklasse verwenden.
+            </summary>
+        </member>
+        <member name="F:WindowsFormsApp1.Form1.components">
+            <summary>
+            Erforderliche Designervariable.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApp1.Form1.Dispose(System.Boolean)">
+            <summary>
+            Verwendete Ressourcen bereinigen.
+            </summary>
+            <param name="disposing">True, wenn verwaltete Ressourcen gelöscht werden sollen; andernfalls False.</param>
+        </member>
+        <member name="M:WindowsFormsApp1.Form1.InitializeComponent">
+            <summary>
+            Erforderliche Methode für die Designerunterstützung.
+            Der Inhalt der Methode darf nicht mit dem Code-Editor geändert werden.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApp1.Program.Main">
+            <summary>
+            Der Haupteinstiegspunkt für die Anwendung.
+            </summary>
+        </member>
+    </members>
+</doc>
