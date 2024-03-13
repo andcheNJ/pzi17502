@@ -99,3 +99,51 @@ def convert_to_hex_and_extract_1(six_bytes):
     bmw_number = combined_hex[-7:]
     pattern = r'^\d[A-Fa-f0-9]{5}\d$'
     return bool(re.match(pattern, bmw_number))
+
+def check_software_data_with_initial_validation(initial_data, software_data):
+    # Helper function to extract parts
+    def extract_parts(data_list):
+        parts_dict = {}
+        for item in data_list:
+            prefix, value = item.split('_', 1)
+            if prefix in parts_dict:
+                parts_dict[prefix].append(value)
+            else:
+                parts_dict[prefix] = [value]
+        return parts_dict
+    
+    # Parse initial and software data
+    initial_parts = extract_parts(initial_data.split(', '))
+    software_parts = extract_parts(software_data.split(', '))
+    
+    # Check for DSPL_0Bx validity in initial data
+    if any(dspl.startswith('0B') for dspl in software_parts['DSPL']):
+        btld_swfl_combinations = set()  # Set to hold unique BTLD and SWFL combinations for DSPL_0Bx
+        for i, dspl in enumerate(initial_parts['DSPL']):
+            if dspl.startswith('0B'):
+                btld_swfl_combinations.add((initial_parts['BTLD'][i], initial_parts['SWFL'][i]))
+        if len(btld_swfl_combinations) > 1:
+            return False  # Initial data contains DSPL_0Bx with different BTLD and SWFL values
+    
+    # Check DSPL data
+    for dspl in software_parts['DSPL']:
+        # Check if DSPL data is in initial data
+        if dspl not in initial_parts['DSPL']:
+            return False  # DSPL data not found in initial set
+        
+        # If DSPL data is found, check BTLD and SWFL parts
+        dspl_index = initial_parts['DSPL'].index(dspl)
+        # Ensure BTLD and SWFL match for the corresponding DSPL
+        if initial_parts['BTLD'][dspl_index] != software_parts['BTLD'][0] or initial_parts['SWFL'][dspl_index] != software_parts['SWFL'][0]:
+            return False  # BTLD or SWFL data does not match
+    
+    # If all checks passed
+    return True
+
+# Example usage
+initial_data = "DSPL_090, HWEL_00B7F0_001_001_001, BTLD_00B7D8_001_003_001, SWFL_00B7F1_001_007_001, DSPL_0B0, HWEL_42525_255_255_255, BTLD_42524_005_001_050, SWFL_42553_006_019_050, DSPL_0B1, HWEL_42525_006_001_002, BTLD_42524_005_001_050, SWFL_42553_006_019_050, DSPL_0B2, HWEL_42525_006_001_002, BTLD_42524_005_001_050, SWFL_42553_006_019_050"
+software_data = "DSPL_090, HWEL_00B7F0_001_001_001, BTLD_00B7D8_001_003_001, SWFL_00B7F1_001_007_001"
+
+# Call the function with updated requirement
+result = check_software_data_with_initial_validation(initial_data, software_data)
+print(f"Match found and initial data valid: {result}")
