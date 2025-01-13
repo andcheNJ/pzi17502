@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: DLT-Tools
+Version: 0.8
+Summary: Reading and writing of DLT Data to Files and Stream
+Home-page: http://sntee.pzs.de:8080/cb/git/ens_stresstest
+Author: Friedrich Zimmer
+Author-email: friedrich.zimmer@arrk-engineering.com
+License: Proprietary

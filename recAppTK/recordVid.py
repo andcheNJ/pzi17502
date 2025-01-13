@@ -1,5 +1,12 @@
 # -*- coding: utf-8 -*-
 """
+Created on Fri Mar 22 14:42:27 2024
+
+@author: Temes3
+"""
+
+# -*- coding: utf-8 -*-
+"""
 Created on Fri Jun  3 21:03:57 2022
 
 @author: Andrew
@@ -20,9 +27,11 @@ _FINISH = False
 class recordVideo:
  
     
-    def __init__(self):
+    def __init__(self, save_location=None, hours_per_video=1):
 
-
+        # Add save_location and hours_per_video to the class properties
+        self.save_location = save_location
+        self.hours_per_video = hours_per_video
         self.screenon = False
         self.pause = mp.Queue()
         self.commandq = mp.Queue(maxsize=1)
@@ -46,23 +55,7 @@ class recordVideo:
 
     # creates videoobject and handles outputpath
     def videoFeed(self):
-        # img_train = cv2.imread(self.trainp)
-        # vcObject = cv2.VideoCapture(self.path, cv2.CAP_DSHOW)
-        # vcObject.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
-        # vcObject.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
-        # fourcc = cv2.VideoWriter_fourcc(*'XVID')
-        # frame_width = int(vcObject.get(cv2.CAP_PROP_FRAME_WIDTH))
-        # frame_height = int(vcObject.get(cv2.CAP_PROP_FRAME_HEIGHT))
-        # vwObject = cv2.VideoWriter(self.output, fourcc, 10, (frame_width + img_train.shape[1], frame_height))
 
-        # orb = cv2.ORB_create()
-        # kp_train, des_train = orb.detectAndCompute(img_train, None)
-        # Prozesszeit = 0
-        # i = 0
-        # tick_sum = 0
-        # avg_prozesszeit = 0
-        # global cap
-        # global key
         self.close = False
      
 
@@ -73,7 +66,7 @@ class recordVideo:
         win_name = 'Recording'
 
         start_time = time.time()
-        capture_duration = 10    # number of hours per video
+        #capture_duration = 10    # number of hours per video
 
         # Connect camera capture and reduce frame size ---③
 
@@ -86,17 +79,21 @@ class recordVideo:
 
         frame_height = int(cap.get(4))
 
-        # frame_size = (frame_width, frame_height)
+        # Use self.save_location for directory creation
+        if self.save_location:
+            dirName = self.save_location
+        else:
+            # Default directory if none is provided
+            sai = datetime.now()
+            dirName = r'C:\Default\Path\If\None\Provided_' +  sai.strftime("%Y%m%d_time%H%M%S")
 
-        #dirName = r'D:\Videos\vidDir_' + str(j)
-        sai = datetime.now()
-        dirName = r'E:\Logitech\testVids_' +  sai.strftime("%Y%m%d_time%H%M%S")
-        try:
-            # Create target Directory
-            os.mkdir(dirName)
-            print("Directory " , dirName ,  " Created ") 
-        except FileExistsError:
-            print("Directory " , dirName ,  " already exists")
+        # Create directory if it doesn't exist
+        os.makedirs(dirName, exist_ok=True)
+        print("Directory ", dirName, " is ready")
+
+        # Adjust the duration based on hours_per_video
+        capture_duration = self.hours_per_video * 60 * 60  # Convert hours to seconds
+
 
         # output = cv2.VideoWriter('output.avi', cv2.VideoWriter_fourcc(*'XVID'), 20, (frame_width , frame_height))
         outVid = dirName  +  '\output_' + str(i) + '.avi'

@@ -1,0 +1,23 @@
+#### Function to start DLTs
+def StartDLT(filename):
+
+    exportoptions = DltExport(None, None, None, filename, 0)
+
+    dltobject = connector.DltConnectorThread(ip="169.254.1.99", exp=exportoptions, dltfilter=None, buffering=False)
+    dltobject.start_reading()
+    print("DLT Logging started")
+
+    return dltobject
+
+
+#### Function to stop DLTs
+def ExecuteDLT(filename):
+    runningfile =f"D:/05. E-Test Report/BK25/Ediabas+WaCo_API/running.txt"
+    preparefile = f"D:/05. E-Test Report/BK25/Ediabas+WaCo_API/prepare.txt"
+    dltobject = StartDLT(filename)
+
+    while os.path.exists(runningfile) or os.path.exists(preparefile):
+        time.sleep(0.1)
+
+    dltobject.stop_reading()
+    print("DLT Logging stopped")

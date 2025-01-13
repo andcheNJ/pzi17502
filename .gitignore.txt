@@ -7,4 +7,4 @@ env/
 venv/
 pip-log.txt
 VS/
-output_1.avi
+*.avi
