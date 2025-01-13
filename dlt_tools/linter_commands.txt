@@ -1,0 +1,4 @@
+Should be checked with:
+pylint: `pylint DLT_Tools`
+pydocstyle: `pydocstyle DLT_Tools --convention=google`
+pycodestyle: `pycodestyle --max-line-length=120 DLT_Tools`

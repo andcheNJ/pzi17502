@@ -1,0 +1,6 @@
+[MESSAGES CONTROL]
+# Explanations:
+# bad-continuation: Conflicts with black formatter
+# no-else-return: Keep control flow and intention clear
+disable=bad-continuation, no-else-return
+max-line-length=120

@@ -1,0 +1,10 @@
+[[source]]
+name = "dlt_tools"
+
+[dev-packages]
+
+[packages]
+scapy = "*"
+
+[requires]
+python_version = "3.7"
